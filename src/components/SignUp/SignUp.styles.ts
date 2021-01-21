@@ -1,0 +1,112 @@
+import { makeStyles } from "@material-ui/core";
+
+export const useStyles = makeStyles((theme) => ({
+  root: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    position: "relative",
+  },
+  imageWrap: { width: "100%", height: "100%" },
+  imageSlide: {
+    position: "absolute",
+    left: 146,
+    top: 132,
+    width: "250px",
+    height: "300px",
+    "& img": { width: "100%", height: "100%" },
+  },
+  container: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    maxWidth: "350px",
+    "& img": { margin: "22px auto 12px", height: "51px", width: "175px" },
+    "& .MuiTypography-h6": {
+      color: "rgba(var(--f52,142,142,142),1)",
+      fontSize: "17px",
+      fontWeight: "600",
+      lineHeight: "20px",
+      margin: "10px 0",
+      textAlign: "center",
+    },
+    "& .MuiButton-contained": {
+      width: "100%",
+      backgroundColor: "#0095f6",
+      textTransform: "capitalize",
+      color: "#fff",
+    },
+    "& .divider ": {
+      display: "flex",
+      alignItems: "center",
+      margin: "10px 0",
+      width: "100%",
+      "& .line": {
+        flex: 1,
+        backgroundColor: "rgba(var(--f52,142,142,142),1)",
+        height: 1,
+      },
+      "& .or": {
+        fontSize: "12px",
+        margin: "0 10px",
+        color: "rgba(var(--f52,142,142,142),1)",
+      },
+    },
+    "& .MuiTypography-subtitle1 ": {
+      display: "grid",
+      placeItems: "center",
+      width: "100%",
+      backgroundColor: "rgba(var(--d87,255,255,255),1)",
+      border: "1px solid rgba(var(--b6a,219,219,219),1)",
+      borderRadius: "1px",
+      margin: "10px 0 0 0",
+      padding: "10px 0",
+      color: "rgba(var(--i1d,38,38,38),1)",
+      fontSize: "14px",
+    },
+  },
+  input: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: "10px 40px",
+    backgroundColor: "rgba(var(--d87,255,255,255),1)",
+    border: "1px solid rgba(var(--b6a,219,219,219),1)",
+    "& form": {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      width: "100%",
+      "& .MuiFormControl-root": {
+        width: "100%",
+        margin: "5px 0",
+        "& .MuiInputLabel-filled": {
+          fontSize: "13px",
+        },
+        "& .MuiFilledInput-root": {
+          borderRadius: "2px",
+        },
+        "& .MuiFilledInput-underline:before": {
+          border: "none",
+        },
+      },
+    },
+    "& .MuiTypography-subtitle2": {
+      color: "rgba(var(--f52,142,142,142),1)",
+      fontSize: "12px",
+      lineHeight: "16px",
+      margin: "10px 0",
+      textAlign: "center",
+    },
+    "& .MuiButton-text": {
+      margin: "8px 40px",
+      backgroundColor: "#0095f6",
+      textTransform: "capitalize",
+      color: "#fff",
+      width: "100%",
+    },
+  },
+}));
