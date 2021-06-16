@@ -1,19 +1,30 @@
-# INSTAGRAM CLONE APP
+ <p align="center">
+ <h3 align="center"> INSTAGRAM CLONE APP</h3>
+  <br />
+   <p align="center">
+This project powered by Create-react-app
+  </p>
+  <br />
+ <p align="center">
+<a href="https://instagrame-clone-f053d.firebaseapp.com/">View Demo</a>
+  </p>
+</p>
 
-This project used typescript + create-react-app
 
-## Css framework
+## FrontEnd
+  ```sh
+ Material UI
+ Create-react-app
+  ```
 
-Material UI
+## Backend
+  ```sh
+ Firebase
+ Firebase Auth
+  ```
+## Future improvements
+  ```sh
+ Improve UI
+ Intergrate chat function
+  ```
 
-## Data
-
-Used Firebase for real-time database for Comment section in Posts.
-
-## Authentication
-
-Used Firebase Auth to login and sign up.s
-
-## Link
-
-https://instagrame-clone-f053d.firebaseapp.com/
